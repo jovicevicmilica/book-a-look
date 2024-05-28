@@ -1,0 +1,343 @@
+/*add salon*/
+.add-salon-container {
+    background-color: var(--light-bg);
+    padding: 20px;
+    box-shadow: var(--box-shadow);
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.salon-form input:valid,
+.salon-form select:valid {
+    background-color: var(--light-bg); 
+}
+
+h2 {
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 20px;    
+    font-size: 18px;
+}
+
+.crudDiv {
+    background-color: var(--white);
+    padding: 30px;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+}
+
+.salon-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.salon-form input,
+.salon-form select {
+    padding: 10px;
+    border: var(--border);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.salon-form select {
+    background-color: var(--white);
+}
+
+.add-usluga-button,
+.submit-button {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 100%; 
+}
+
+.add-usluga-button:hover,
+.submit-button:hover {
+    background-color: var(--hover);
+}
+
+.usluga {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.usluga select,
+.usluga input {
+    flex: 1;
+    padding: 10px;
+    border: var(--border);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.salon-form .submit-button {
+    align-self: center;
+    width: 50%; 
+}
+/*kraj add salon*/
+
+/*salon*/
+.saloni-container {
+    background-color: var(--light-bg);
+    padding: 20px;
+    box-shadow: var(--box-shadow);
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.crudDiv {
+    background-color: var(--white);
+    padding: 30px;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: var(--border);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.add-salon-button {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.add-salon-button:hover {
+    background-color: var(--hover);
+}
+
+.add-salon-link {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.saloni-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.salon-item {
+    background-color: var(--white);
+    padding: 20px;
+    border: var(--border);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+.salon-item h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    color: var(--black);
+    font-size: 16px;
+}
+
+.salon-item p {
+    margin: 5px 0;
+    color: var(--black);
+    font-size: 13px;
+}
+
+.crud-button {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.crud-button:hover {
+    background-color: var(--hover);
+}
+
+.update-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.update-link:hover {
+    color: var(--hover);
+}
+/*kraj salon*/
+
+/*bookings*/
+.bookings-container {
+    background-color: var(--light-bg);
+    padding: 20px;
+    box-shadow: var(--box-shadow);
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.crudDiv {
+    background-color: var(--white);
+    padding: 30px;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+}
+
+.bookings-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.bookings-table th,
+.bookings-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: var(--border);
+}
+
+.bookings-table th {
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-size: 15px;
+}
+
+.bookings-table td {
+    font-size: 13px;
+}
+
+.bookings-table tr {
+    background-color: var(--white);
+}
+
+.crud-button {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+.crud-button:hover {
+    background-color: var(--hover);
+}
+/*kraj bookings*/
+
+/*update salon*/
+.update-salon-container {
+    background-color: var(--light-bg);
+    padding: 20px;
+    box-shadow: var(--box-shadow);
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.update-salon-container p {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.update-salon-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: var(--white);
+    padding: 30px;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+}
+
+.update-salon-form input,
+.update-salon-form select {
+    padding: 10px;
+    border: var(--border);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.submit-button {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: var(--hover);
+}
+
+.add-usluga {
+    margin-top: 30px;
+}
+
+.add-usluga h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.add-usluga-button {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+
+.add-usluga-button:hover {
+    background-color: var(--hover);
+}
+
+.usluga {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.usluga select,
+.usluga input {
+    flex: 1;
+    padding: 10px;
+    border: var(--border);
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+/*kraj update salon*/

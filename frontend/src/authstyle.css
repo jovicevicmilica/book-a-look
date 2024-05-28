@@ -1,0 +1,189 @@
+/*login*/
+.login {
+    height: 100vh;
+    background-color: var(--light-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.card {
+    width: 60%;
+    display: flex;
+    background-color: white;
+    min-height: 500px;
+    overflow: hidden;
+}
+
+.left {
+    flex: 1;
+    background: linear-gradient(rgba(152, 24, 137, 0.5), rgba(39, 11, 96, 0.5)),
+    url("C:\Users\User\Desktop\Fakultet\Treca godina\Drugi semestar\Softverski inzinjering\Book-a-Look\frontend\src\images\login.jpg") center;
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+
+.left h1 {
+    font-size: 100px;
+    line-height: 100px;
+}
+
+.left p {
+    font-size: 13px;
+}
+      
+.left span {
+    font-size: 14px;
+}
+      
+.left button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    color: rebeccapurple;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.right {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+}
+
+.right h1 {
+    color: #555;
+}
+      
+.right form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+        
+.right input {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+        
+.right button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.right button:hover {
+    background-color: var(--hover);
+}
+/*kraj login*/
+
+/*register*/
+.register {
+  height: 100vh;
+  background-color: var(--light-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reg-card {
+    width: 60%;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    min-height: 500px;
+    overflow: hidden;
+}
+
+.reg-left {
+    flex: 1;
+    background: linear-gradient(rgba(174, 25, 150, 0.5), rgba(39, 11, 96, 0.5)),
+    url("C:\Users\User\Desktop\Fakultet\Treca godina\Drugi semestar\Softverski inzinjering\Book-a-Look\frontend\src\images\register.jpg")
+    center;
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+
+.reg-left h1 {
+    font-size: 100px;
+    line-height: 100px;
+}
+      
+.reg-left p {
+    font-size: 13px;
+}
+
+.reg-left span {
+    font-size: 14px;
+}
+      
+.reg-left button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    color: rebeccapurple;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.reg-right {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+}
+
+.reg-right h1 {
+    color: #555;
+}
+      
+.reg-right form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+        
+.reg-right input {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 10px;
+    width: 100%;
+    box-sizing: border-box; 
+}
+        
+.submit-button-reg {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-button-reg:hover {
+    background-color: var(--hover);
+}
